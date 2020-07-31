@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "similan-islands-dive-site-turtle-rock.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "similan-islands-dive-site-turtle-rock@2x.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "similan-islands-dive-site-turtle-rock@3x.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -26,6 +26,7 @@
 		F94F68EB24D400080083305E /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F68EA24D400080083305E /* NotificationView.swift */; };
 		F94F68ED24D400080083305E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94F68EC24D400080083305E /* Assets.xcassets */; };
 		F94F68F024D400080083305E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94F68EF24D400080083305E /* Preview Assets.xcassets */; };
+		F94F690D24D486B90083305E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F690C24D486B90083305E /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +114,7 @@
 		F94F68EF24D400080083305E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F94F68F124D400080083305E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F94F68F224D400080083305E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		F94F690C24D486B90083305E /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 				F94F68B224D400070083305E /* LaunchScreen.storyboard */,
 				F94F68B524D400070083305E /* Info.plist */,
 				F94F68AF24D400070083305E /* Preview Content */,
+				F94F690C24D486B90083305E /* CircleImage.swift */,
 			);
 			path = cooky;
 			sourceTree = "<group>";
@@ -439,6 +442,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F94F68A824D400040083305E /* AppDelegate.swift in Sources */,
+				F94F690D24D486B90083305E /* CircleImage.swift in Sources */,
 				F94F68AA24D400040083305E /* SceneDelegate.swift in Sources */,
 				F94F68AC24D400040083305E /* ContentView.swift in Sources */,
 			);
@@ -567,7 +571,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -621,7 +625,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
