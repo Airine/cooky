@@ -8,17 +8,16 @@
 
 import SwiftUI
 
+let width = UIScreen.main.bounds.size.width/2.3
+
 struct RecipeBlock: View {
     var recipe: Recipe
 
     var body: some View {
         VStack {
-//            recipe.image
-//                .resizable()
-//                .frame(width: 50, height: 50)
-            Image("tomatoegg")
+            Image(recipe.imageName)
                 .resizable()
-                .frame(width: UIScreen.main.bounds.size.width/2.3, height: 300)
+                .frame(width: width, height: width)
             Text(recipe.name)
             Text(recipe.description)
         }
