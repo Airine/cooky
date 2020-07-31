@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1000,
+        "name": "Tomato and Egg STIR-FRY",
+        "description": "A national dish, simple yet delicious, and adored by every family in China.",
+        "imageName": "tomatoegg",
+        "requirements": [
+            {
+                "amount": 200,
+                "unit": "g",
+                "type": "suger"
+            },
+            {
+                "amount": 200,
+                "unit": "g",
+                "type": "salt"
+            }
+        ],
+        "numOfSteps": 2,
+        "steps": [
+            {
+                "videoURL": "https://www.radiantmediaplayer.com/media/big-buck-bunny-360p.mp4",
+                "description": "mix the eggs"
+            },
+            {
+                "videoURL": "https://www.radiantmediaplayer.com/media/big-buck-bunny-360p.mp4",
+                "description": "put the tomatoes"
+            }
+        ],
+        "category": "Chinese"
+    }
+]

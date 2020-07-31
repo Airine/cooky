@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F903F3E524D4A2B600723477 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F903F3E424D4A2B600723477 /* Recipe.swift */; };
+		F903F3E724D4A99D00723477 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F903F3E624D4A99D00723477 /* Data.swift */; };
+		F903F3ED24D4AB9D00723477 /* RecipeData.json in Resources */ = {isa = PBXBuildFile; fileRef = F903F3EC24D4AB9D00723477 /* RecipeData.json */; };
+		F903F3EF24D4B30B00723477 /* RecipeBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F903F3EE24D4B30B00723477 /* RecipeBlock.swift */; };
 		F94F68A824D400040083305E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F68A724D400040083305E /* AppDelegate.swift */; };
 		F94F68AA24D400040083305E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F68A924D400040083305E /* SceneDelegate.swift */; };
 		F94F68AC24D400040083305E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F68AB24D400040083305E /* ContentView.swift */; };
@@ -28,6 +32,8 @@
 		F94F68F024D400080083305E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94F68EF24D400080083305E /* Preview Assets.xcassets */; };
 		F94F690D24D486B90083305E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F690C24D486B90083305E /* CircleImage.swift */; };
 		F94F690F24D4880A0083305E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F690E24D4880A0083305E /* MapView.swift */; };
+		F94F691224D498BC0083305E /* VideoPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = F94F691124D498BC0083305E /* VideoPlayer */; };
+		F94F691424D498F50083305E /* RecipeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F691324D498F50083305E /* RecipeDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +93,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F903F3E424D4A2B600723477 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		F903F3E624D4A99D00723477 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		F903F3EC24D4AB9D00723477 /* RecipeData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RecipeData.json; sourceTree = "<group>"; };
+		F903F3EE24D4B30B00723477 /* RecipeBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeBlock.swift; sourceTree = "<group>"; };
 		F94F68A424D400040083305E /* cooky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cooky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F94F68A724D400040083305E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F94F68A924D400040083305E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +127,7 @@
 		F94F68F224D400080083305E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		F94F690C24D486B90083305E /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		F94F690E24D4880A0083305E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F94F691324D498F50083305E /* RecipeDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F94F691224D498BC0083305E /* VideoPlayer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +163,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F903F3E324D4A27D00723477 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F903F3E424D4A2B600723477 /* Recipe.swift */,
+				F903F3E624D4A99D00723477 /* Data.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F903F3EB24D4AB5400723477 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F903F3EC24D4AB9D00723477 /* RecipeData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		F94F689B24D400040083305E = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +207,8 @@
 		F94F68A624D400040083305E /* cooky */ = {
 			isa = PBXGroup;
 			children = (
+				F903F3EB24D4AB5400723477 /* Resources */,
+				F903F3E324D4A27D00723477 /* Models */,
 				F94F68A724D400040083305E /* AppDelegate.swift */,
 				F94F68A924D400040083305E /* SceneDelegate.swift */,
 				F94F68AB24D400040083305E /* ContentView.swift */,
@@ -187,6 +218,8 @@
 				F94F68AF24D400070083305E /* Preview Content */,
 				F94F690C24D486B90083305E /* CircleImage.swift */,
 				F94F690E24D4880A0083305E /* MapView.swift */,
+				F94F691324D498F50083305E /* RecipeDetails.swift */,
+				F903F3EE24D4B30B00723477 /* RecipeBlock.swift */,
 			);
 			path = cooky;
 			sourceTree = "<group>";
@@ -269,6 +302,9 @@
 				F94F68D124D400070083305E /* PBXTargetDependency */,
 			);
 			name = cooky;
+			packageProductDependencies = (
+				F94F691124D498BC0083305E /* VideoPlayer */,
+			);
 			productName = cooky;
 			productReference = F94F68A424D400040083305E /* cooky.app */;
 			productType = "com.apple.product-type.application";
@@ -381,6 +417,9 @@
 				Base,
 			);
 			mainGroup = F94F689B24D400040083305E;
+			packageReferences = (
+				F94F691024D498BC0083305E /* XCRemoteSwiftPackageReference "VideoPlayer" */,
+			);
 			productRefGroup = F94F68A524D400040083305E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -400,6 +439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F94F68B424D400070083305E /* LaunchScreen.storyboard in Resources */,
+				F903F3ED24D4AB9D00723477 /* RecipeData.json in Resources */,
 				F94F68B124D400070083305E /* Preview Assets.xcassets in Resources */,
 				F94F68AE24D400070083305E /* Assets.xcassets in Resources */,
 			);
@@ -444,11 +484,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F94F691424D498F50083305E /* RecipeDetails.swift in Sources */,
 				F94F68A824D400040083305E /* AppDelegate.swift in Sources */,
+				F903F3EF24D4B30B00723477 /* RecipeBlock.swift in Sources */,
+				F903F3E524D4A2B600723477 /* Recipe.swift in Sources */,
 				F94F690D24D486B90083305E /* CircleImage.swift in Sources */,
 				F94F690F24D4880A0083305E /* MapView.swift in Sources */,
 				F94F68AA24D400040083305E /* SceneDelegate.swift in Sources */,
 				F94F68AC24D400040083305E /* ContentView.swift in Sources */,
+				F903F3E724D4A99D00723477 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -907,6 +951,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F94F691024D498BC0083305E /* XCRemoteSwiftPackageReference "VideoPlayer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wxxsw/VideoPlayer";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F94F691124D498BC0083305E /* VideoPlayer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F94F691024D498BC0083305E /* XCRemoteSwiftPackageReference "VideoPlayer" */;
+			productName = VideoPlayer;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F94F689C24D400040083305E /* Project object */;
 }
