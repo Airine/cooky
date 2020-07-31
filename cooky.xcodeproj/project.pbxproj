@@ -27,6 +27,7 @@
 		F94F68ED24D400080083305E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94F68EC24D400080083305E /* Assets.xcassets */; };
 		F94F68F024D400080083305E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94F68EF24D400080083305E /* Preview Assets.xcassets */; };
 		F94F690D24D486B90083305E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F690C24D486B90083305E /* CircleImage.swift */; };
+		F94F690F24D4880A0083305E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F690E24D4880A0083305E /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +116,7 @@
 		F94F68F124D400080083305E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F94F68F224D400080083305E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		F94F690C24D486B90083305E /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		F94F690E24D4880A0083305E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +186,7 @@
 				F94F68B524D400070083305E /* Info.plist */,
 				F94F68AF24D400070083305E /* Preview Content */,
 				F94F690C24D486B90083305E /* CircleImage.swift */,
+				F94F690E24D4880A0083305E /* MapView.swift */,
 			);
 			path = cooky;
 			sourceTree = "<group>";
@@ -443,6 +446,7 @@
 			files = (
 				F94F68A824D400040083305E /* AppDelegate.swift in Sources */,
 				F94F690D24D486B90083305E /* CircleImage.swift in Sources */,
+				F94F690F24D4880A0083305E /* MapView.swift in Sources */,
 				F94F68AA24D400040083305E /* SceneDelegate.swift in Sources */,
 				F94F68AC24D400040083305E /* ContentView.swift in Sources */,
 			);
